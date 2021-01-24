@@ -1,0 +1,6 @@
+framework module Pods_X_Things_I_Love_About_You {
+  umbrella header "Pods-X-Things-I-Love-About-You-umbrella.h"
+
+  export *
+  module * { export * }
+}

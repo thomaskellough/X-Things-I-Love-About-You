@@ -9,7 +9,12 @@ import UIKit
 
 class ComplimentTableViewController: UITableViewController {
 
-    let compliments = AllCompliments().compliments
+    var compliments: [Compliment] {
+        let days = UserDefaults.standard.integer(forKey: "maxDay")
+        let compliments = AllCompliments().compliments
+        
+        return Array(compliments[0...days])
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

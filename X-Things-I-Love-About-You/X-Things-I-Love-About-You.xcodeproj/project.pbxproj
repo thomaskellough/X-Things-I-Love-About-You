@@ -21,6 +21,7 @@
 		BC6471CC25BE3F8200261BD9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471CB25BE3F8200261BD9 /* UIColor+Extension.swift */; };
 		BC6471DA25BE41A400261BD9 /* Compliments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471D925BE41A400261BD9 /* Compliments.swift */; };
 		BC6471E325BE483900261BD9 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471E225BE483900261BD9 /* AnimationFactory.swift */; };
+		BC6471FA25BE555400261BD9 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471F925BE555400261BD9 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BC6471CB25BE3F8200261BD9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BC6471D925BE41A400261BD9 /* Compliments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compliments.swift; sourceTree = "<group>"; };
 		BC6471E225BE483900261BD9 /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
+		BC6471F925BE555400261BD9 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				BC6471E225BE483900261BD9 /* AnimationFactory.swift */,
+				BC6471F925BE555400261BD9 /* NotificationManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				BC6471C125BE3F0600261BD9 /* ComplimentTableViewController.swift in Sources */,
 				BC6471E325BE483900261BD9 /* AnimationFactory.swift in Sources */,
 				BC6471BC25BE3EF300261BD9 /* ComplimentViewController.swift in Sources */,
+				BC6471FA25BE555400261BD9 /* NotificationManager.swift in Sources */,
 				BC64718725BE223A00261BD9 /* ViewController.swift in Sources */,
 				BC6471CC25BE3F8200261BD9 /* UIColor+Extension.swift in Sources */,
 				BC64718325BE223A00261BD9 /* AppDelegate.swift in Sources */,

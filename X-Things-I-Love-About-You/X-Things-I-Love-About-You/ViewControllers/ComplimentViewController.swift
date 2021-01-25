@@ -55,6 +55,7 @@ class ComplimentViewController: UIViewController {
         }
         
         configureView()
+        NotificationManager().registerLocal()
     }
     
     func configureView() {

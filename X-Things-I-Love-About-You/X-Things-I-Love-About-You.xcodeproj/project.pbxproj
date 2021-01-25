@@ -20,6 +20,7 @@
 		BC6471C125BE3F0600261BD9 /* ComplimentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471C025BE3F0600261BD9 /* ComplimentTableViewController.swift */; };
 		BC6471CC25BE3F8200261BD9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471CB25BE3F8200261BD9 /* UIColor+Extension.swift */; };
 		BC6471DA25BE41A400261BD9 /* Compliments.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471D925BE41A400261BD9 /* Compliments.swift */; };
+		BC6471E325BE483900261BD9 /* AnimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6471E225BE483900261BD9 /* AnimationFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BC6471C025BE3F0600261BD9 /* ComplimentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplimentTableViewController.swift; sourceTree = "<group>"; };
 		BC6471CB25BE3F8200261BD9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BC6471D925BE41A400261BD9 /* Compliments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compliments.swift; sourceTree = "<group>"; };
+		BC6471E225BE483900261BD9 /* AnimationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		BC64718125BE223A00261BD9 /* X-Things-I-Love-About-You */ = {
 			isa = PBXGroup;
 			children = (
+				BC6471E125BE482A00261BD9 /* Services */,
 				BC6471D825BE419700261BD9 /* Models */,
 				BC6471CA25BE3F7100261BD9 /* Extensions */,
 				BC6471BA25BE3ED200261BD9 /* ViewControllers */,
@@ -186,6 +189,14 @@
 				BC6471D925BE41A400261BD9 /* Compliments.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BC6471E125BE482A00261BD9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC6471E225BE483900261BD9 /* AnimationFactory.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6471C125BE3F0600261BD9 /* ComplimentTableViewController.swift in Sources */,
+				BC6471E325BE483900261BD9 /* AnimationFactory.swift in Sources */,
 				BC6471BC25BE3EF300261BD9 /* ComplimentViewController.swift in Sources */,
 				BC64718725BE223A00261BD9 /* ViewController.swift in Sources */,
 				BC6471CC25BE3F8200261BD9 /* UIColor+Extension.swift in Sources */,

@@ -18,11 +18,13 @@ class ComplimentViewController: UIViewController {
     var currentDay = 0
     var selectedDay: Int?
     
+    var animationFactory: AnimationFactory?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        animationFactory = AnimationFactory()
         configureView()
-
     }
     
     func configureView() {
@@ -40,6 +42,8 @@ class ComplimentViewController: UIViewController {
         label.textColor = UIColor.App.Primary
         label.textAlignment = .center
         label.text = compliments[currentDay].dialogue
+        
+        animationFactory?.randomAnimation(label, duration: 1, delay: 0)
     }
 
     func configureImageView() {
@@ -52,6 +56,8 @@ class ComplimentViewController: UIViewController {
 
         let image = UIImage(named: compliments[currentDay].image)
         imageView.image = image
+        
+        animationFactory?.randomAnimation(imageView, duration: 1, delay: 0)
     }
     
     func configureButtons() {
